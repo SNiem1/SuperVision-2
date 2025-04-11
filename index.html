@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muuta Tilasi Virtuaaliseksi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img width="auto" height="40" viewBox="0 0 32 32" fill="none" src="assets/montain puzzle white.svg">
+                        <path d="M16 0C7.163 0 0 7.163 0 16C0 24.837 7.163 32 16 32C24.837 32 32 24.837 32 16C32 7.163 24.837 0 16 0ZM16 28C9.373 28 4 22.627 4 16C4 9.373 9.373 4 16 4C22.627 4 28 9.373 28 16C28 22.627 22.627 28 16 28Z" fill="white"/>
+                        <path d="M20 12C20 14.209 18.209 16 16 16C13.791 16 12 14.209 12 12C12 9.791 13.791 8 16 8C18.209 8 20 9.791 20 12Z" fill="white"/>
+                </img>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="active">Etusivu</a></li>
+                        <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+                        <li><a href="palvelut.html">Ratkaisut</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Muuta Tilasi Virtuaaliseksi</h1>
+                    <p>Tutustu virtuaalisiin kokemuksiin</p>
+                    <div class="cta-buttons">
+                        <a href="services/360-virtuaalikierros.html" class="btn btn-primary">360</a>
+                        <a href="services/3d-virtuaalimalli.html" class="btn btn-secondary">3D</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Illustrated 3D graphic of a computer/virtual space -->
+                    <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="120" y="60" width="160" height="120" rx="5" fill="#1A1A2E" stroke="#6A6A9F" stroke-width="2"/>
+                        <rect x="130" y="70" width="140" height="90" rx="2" fill="#34346E"/>
+                        <rect x="150" y="190" width="100" height="10" rx="2" fill="#1A1A2E" stroke="#6A6A9F" stroke-width="2"/>
+                        <rect x="140" y="200" width="120" height="40" rx="3" fill="#1A1A2E" stroke="#6A6A9F" stroke-width="2"/>
+                        <!-- Simple 3D illustration elements -->
+                        <path d="M180 100L220 130L180 160L180 100Z" fill="#FF7CAE"/>
+                        <circle cx="250" cy="110" r="15" fill="#61DAFB"/>
+                        <rect x="140" y="140" width="25" height="25" rx="2" fill="#A45DEF"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-content">
+                <h2>VIRTUAALIKIERROKSET?</h2>
+                <p>Virtuaalikierros on digitaalinen, interaktiivinen esittely, jonka avulla käyttäjä voi tutustua tilaan etänä. Se koostuu 360°-kuvista tai 3D-malleista, jotka yhdistetään saumattomaksi kokemukseksi. Käyttäjä voi liikkua vapaasti tilassa, zoomata yksityiskohtiin ja kokea ympäristön aivan kuin olisi siellä itse.</p>
+                <h3>Ota selvää miten voimme auttaa juuri sinua!</h3>
+                <a href="#yhteystiedot" class="btn btn-primary features-btn">Ota yhteyttä</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="yhteystiedot" class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Ota yhteyttä</h2>
+                    <div class="info-item">
+                        <span class="label">Nimi:</span>
+                        <p>Samu Niemi</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Email:</span>
+                        <p>samu@supervisionsolutions.fi</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Puhelin:</span>
+                        <p>044 3579347</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61574330811293&locale=fi_FI" class="social-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>supervisionsolutions</span>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61574330811293&locale=fi_FI" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>supervisionsolutions</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Ota yhteyttä</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nimi</label>
+                            <input type="text" id="name" name="name" placeholder="Nimesi">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Sähköposti</label>
+                            <input type="email" id="email" name="email" placeholder="Sähköpostiosoitteesi">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Puhelinnumero</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Puhelinnumerosi">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Viesti</label>
+                            <textarea id="message" name="message" placeholder="Viestisi"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Lähetä viesti</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 0C7.163 0 0 7.163 0 16C0 24.837 7.163 32 16 32C24.837 32 32 24.837 32 16C32 7.163 24.837 0 16 0ZM16 28C9.373 28 4 22.627 4 16C4 9.373 9.373 4 16 4C22.627 4 28 9.373 28 16C28 22.627 22.627 28 16 28Z" fill="white"/>
+                        <path d="M20 12C20 14.209 18.209 16 16 16C13.791 16 12 14.209 12 12C12 9.791 13.791 8 16 8C18.209 8 20 9.791 20 12Z" fill="white"/>
+                    </svg>
+                </div>
+                <div class="social-links-footer">
+                    <a href="https://www.facebook.com/profile.php?id=61574330811293&locale=fi_FI" class="social-link-footer" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/supervisionsolutions/" class="social-link-footer" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
