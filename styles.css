@@ -659,9 +659,9 @@ footer {
     height: 100%;
 }
 .read-more-button {
-    background-color: #007BFF;
+    background-color: #007bff00;
     color: white;
-    padding: 10px 20px;
+    padding: 0px 0px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -674,7 +674,7 @@ footer {
  .read-more-content {
     display: none; /* Initially hide the extra content */
     margin-top: 20px; /* Add some spacing above the content */
-    max-width: 600px;
+    
     margin-left: auto;
     margin-right: auto;
  }
